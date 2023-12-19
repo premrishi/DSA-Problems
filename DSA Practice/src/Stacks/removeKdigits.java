@@ -10,8 +10,9 @@ public class removeKdigits {
         //String num = "1432219";
         //String num = "4321";
         //String num = "10200";
-        String num = "14301620";
-        int k = 4;
+        //String num = "14301620";
+        String num = "1234";
+        int k = 2;
         //int k = 2;
         //Ans = 1219
 
@@ -66,7 +67,7 @@ public class removeKdigits {
         while (!stack.isEmpty() && k > 0) {
             k--;
             stack.pop();
-        }
+        } 
 
         //popping the elements from the stack and pushing it in stringbuilder
         StringBuilder result = new StringBuilder();

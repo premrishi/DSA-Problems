@@ -50,6 +50,7 @@ public class GroupAnagrams {
 
         // Convert the values of globalHashMap to an ArrayList of ArrayLists
         ArrayList<ArrayList<String>> arrayLists = new ArrayList<>();
+        
         for (ArrayList<String> val: globalHashMap.values()) {
             arrayLists.add(val);
         }

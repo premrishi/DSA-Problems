@@ -7,9 +7,12 @@ public class InfinixtoPostfix {
 		// String exp = "a*b+c";
 		// String exp = "a*b+(c-d)";
 		// String exp = "a+(b-c)";
-		String exp = "a+b-c";
+		//String exp = "a+b-c";
+		String exp = "2-1+2";
 		String ansInfixToPostfix = infixToPostfix(exp);
-		System.out.println(ansInfixToPostfix);
+		int calculate = postfix(ansInfixToPostfix);
+		//System.out.println(ansInfixToPostfix);
+		System.out.println(calculate);
 	}
 
 	public static String infixToPostfix(String exp) {
@@ -50,6 +53,45 @@ public class InfinixtoPostfix {
         }
 
        return res;
+    }
+	
+	public static int postfix(String exp) {
+        Stack<Integer> stack = new Stack<>();
+
+        // Scan all characters one by one
+        for (int i = 0; i < exp.length(); i++) {
+            char c = exp.charAt(i);
+
+            // If the scanned character is an operand
+            // (number here), push it to the stack.
+            if (Character.isDigit(c))
+                stack.push(c - '0');
+
+                //  If the scanned character is an operator, pop
+                //  two elements from stack apply the operator
+            else {
+                int val1 = stack.pop();
+                int val2 = stack.pop();
+
+
+                // val2 <operator> val1>
+                switch (c) {
+                    case '+':
+                        stack.push(val2 + val1);
+                        break;
+                    case '-':
+                        stack.push(val2 - val1);
+                        break;
+                    case '/':
+                        stack.push(val2 / val1);
+                        break;
+                    case '*':
+                        stack.push(val2 * val1);
+                        break;
+                }
+            }
+        }
+        return stack.pop();
     }
 
 	public static int precedence(char ch) {

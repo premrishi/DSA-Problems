@@ -9,11 +9,12 @@ Stack = ab
  */
 
 public class removeAdjacentduplicates {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
         String s = "abbaca";
         Stack<Character> stack = new Stack<>();
 
-        for (char ch: s.toCharArray()) {
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
             if (stack.isEmpty()) {
                 stack.push(ch);
             } else {
@@ -25,12 +26,9 @@ public class removeAdjacentduplicates {
             }
         }
 
-        StringBuilder stringBuilder = new StringBuilder();
-        for (char ch: stack) {
-            stringBuilder.append(ch);
+        for (int i = 0; i < stack.size(); i++) {
+            System.out.print(stack.get(i));
         }
-
-        System.out.println(stringBuilder);
 
     }
 }

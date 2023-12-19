@@ -29,8 +29,8 @@ public class balanceParanthesis {
 
         //String str2 = "((((";
         //String str2 = ")(((";
-        String str2 = ")()(";
-        //String str2 = "()((";
+        //String str2 = ")()(";
+        String str2 = "()((";
         int ansMin = minimumReversal(str2);
         System.out.println(ansMin);
     }

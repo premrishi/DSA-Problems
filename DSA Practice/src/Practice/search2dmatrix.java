@@ -5,7 +5,7 @@ public class search2dmatrix {
 		int[][] arr = {{1,2,3},
 				       {4,5,6},
 				       {7,8,9}};
-		int target = 9;
+		int target = 6;
 		search2d(arr, target);
 	}
 	

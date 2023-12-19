@@ -41,22 +41,27 @@ public class FirstCircularTour {
     public static void main(String[] args) {
         int petrol[] = {7, 8, 5, 11, 7, 6};
         int distance[] = {6, 7, 8, 9, 7, 5};
-
-        int start=0;
-        int requiredPreviousFuel = 0;
-        int extraFuel = 0;
-
-        for (int i=0; i<petrol.length; i++) {
-            extraFuel += petrol[i] - distance[i];
-            if (extraFuel < 0) {
-                start = i+1;
-                requiredPreviousFuel += extraFuel;   // 2,3     3,4       4,3
-                extraFuel = 0;  //reset ethe extra fuel
-            }
-        }
-//        if (requiredPreviousFuel + extraFuel >=0 ){
-        if (extraFuel >= Math.abs(requiredPreviousFuel)) {
-            System.out.println(start);
-        }
+        System.out.println(start(petrol, distance));
     }
+    
+    public static int start(int petrol[], int distance[]) {
+		int starting = 0;
+		int extrafuel = 0;
+		int requiredfuel = 0;
+		
+		for(int i = 0; i<petrol.length; i++) {
+			extrafuel += petrol[i] - distance[i];
+			if(extrafuel<=0) {
+				starting = i+1;
+				requiredfuel += extrafuel;
+				extrafuel = 0;
+			}
+		}
+		
+		if(extrafuel>= Math.abs(requiredfuel)) {
+			return starting;
+		} else {
+			return -1;
+		}
+	}
 }

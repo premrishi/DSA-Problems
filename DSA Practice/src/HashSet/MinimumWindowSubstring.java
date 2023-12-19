@@ -15,10 +15,12 @@ public class MinimumWindowSubstring {
     public static String minWindowSubstring(String s, String t) {
         // Map to store character frequencies of the target string
         HashMap<Character, Integer> targetMap = new HashMap<>();
+        char[] chararr = t.toCharArray();
 
         // Initialize the targetMap with character frequencies of the target string
-        for (char c : t.toCharArray()) {
-            targetMap.put(c, targetMap.getOrDefault(c, 0) + 1);
+        for (int i = 0; i<chararr.length; i++) {
+        	char c = chararr[i];
+            targetMap.put(c, targetMap.getOrDefault(c, 0)+1);
         }
 
         // Pointers for the sliding window
@@ -33,12 +35,12 @@ public class MinimumWindowSubstring {
 
         // Loop through the input string using two pointers
         while (j < s.length()) {
-            char jChar = s.charAt(j);
+            char q = s.charAt(j);
 
             // Update the targetMap and count for the j character
-            if (targetMap.containsKey(jChar)) {
-                targetMap.put(jChar, targetMap.get(jChar) - 1);
-                if (targetMap.get(jChar) == 0) {
+            if (targetMap.containsKey(q)) {
+                targetMap.put(q, targetMap.get(q) - 1);
+                if (targetMap.get(q) == 0) {
                     count--;
                 }
             }
@@ -69,7 +71,12 @@ public class MinimumWindowSubstring {
         }
 
         // Return the minimum window substring or an empty string if no valid window is found
-        return minLen == Integer.MAX_VALUE ? "" : s.substring(windowStartAns, windowStartAns + minLen);
+        if (minLen == Integer.MAX_VALUE) {
+            return "";
+        } else {
+            return s.substring(windowStartAns, windowStartAns + minLen);
+        }
+
     }
 }
 

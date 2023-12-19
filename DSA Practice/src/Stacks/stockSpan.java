@@ -5,8 +5,8 @@ import java.util.Stack;
 
 public class stockSpan {
     public static void main(String[] args) {
-        int[] arr = {100, 80, 60, 70, 60, 75, 85};
-        //int[] arr = {100, 100, 60, 70, 60, 75, 85};
+        //int[] arr = {100, 80, 60, 70, 60, 75, 85};
+        int[] arr = {60, 70};
         int[] span = new int[arr.length];
 
         Stack<Integer> stack = new Stack<>();

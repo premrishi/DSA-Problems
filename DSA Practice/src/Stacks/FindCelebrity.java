@@ -41,22 +41,6 @@ public class FindCelebrity {
         }
 
 
-        /*
-        {0, 0, 1, 0},
-        {0, 0, 1, 0},
-        {0, 0, 0, 0},
-        {0, 0, 1, 0}
-​
-        02
-        12
-        22
-        32
-​
-        20
-        21
-        22
-        23
-         */
         int flag = 0;
         int potentialAnswer = stack.pop();
         for (int i=0; i<arr.length; i++) {
