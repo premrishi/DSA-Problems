@@ -1,0 +1,7 @@
+Queue implementation with circular array
+Implement queue with 2 stacks
+Postfix evaluation algorithm
+First "-ve" integer in every window of size k
+Reverse first k elements from the queue
+First circular tour
+Interleave first half of Queue

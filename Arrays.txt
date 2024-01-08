@@ -1,0 +1,38 @@
+Print an array
+Sum of array
+Max of an array
+Min of an array
+Second max of an array
+Second min of an array
+Find if array is ascending
+-----
+Find Nth element of Fibonacci series
+Merge two sorted arrays(B|O)
+Move all zero's to end
+Max sub array sum (Kadane's algorithm)(B|O)
+Pair sum - no duplicates and sorted (O)
+count frequency of each element in an array (O)
+Best time to buy and sell stock (B|O)
+Segregate the array (Move all +ve to end)
+Missing first positive number(B)
+Equilibrium index of an array(B|O)
+Majority element - element present more than n/2 times
+Sort an array of 0,1,2 (Dutch National Flag) (B | O)
+Leaders of an array
+Rotate an array (B)
+Trapping Rain water problem (B | O)
+Container with most water (B)
+Sliding window - Sum of all subarray of size k(O)
+Sliding window - Max sum of subarray of size k(O)
+Count Anagram occurances (O)
+Longest subarray of size k (O)
+Smallest subarray(O)
+Max consecutive one if one flip is allowed(O)
+Row traversal in 2d array(O)
+Coulumn traversal in 2d array(O)
+Spiral2dmatrix(O)
+Spiral2dmatrix - II(O)
+Rotate image 90 degree(O)
+Transpose of matrix(O)
+Transpose of rectangular matrix
+Search in sorted 2d array

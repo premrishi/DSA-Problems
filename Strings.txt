@@ -1,0 +1,12 @@
+Reverse a string
+Longest substring without repeating characters
+Shuffle the string(Cyclic sort)
+cyclic sort
+Find all anagrams in a string
+count frequency of all letters in a string
+First unique character in a string
+Robot return to Origin
+Longest repeating character replacement
+Anagram Occurance
+Stringcompression
+Stringcompression2

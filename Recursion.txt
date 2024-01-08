@@ -1,0 +1,9 @@
+First and last occurance of a character in string
+String reversal
+Subsequence of a string
+Remove duplicates from string
+Place tiles
+Count total paths
+Move all x to end
+N-Queens
+Plindrome check

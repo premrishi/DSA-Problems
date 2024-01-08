@@ -1,0 +1,14 @@
+Array Implementation of stack
+Linked List implementation of stack
+Infix to postfix(Basic calculator)
+Next greater element that lies RHS of array
+Valid paranthesis
+Get max element
+Stock span problem
+Find the celebrity 
+Minimum reversal to balance paranthesis
+Remove K digits
+Duplicate paranthesis
+Simplify path
+Remove adjacent duplicates from string
+Stack Reversal

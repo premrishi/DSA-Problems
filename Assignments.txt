@@ -1,0 +1,46 @@
+Reverse an Array
+Missing Numbers
+Check if a string is Palindrome
+Check if a number is Palindrome
+Max Consecutive One
+Buy & Sell Stock
+Two Sum
+Remove Duplicates from Sorted Array
+Next Permutation 
+Find All Duplicates in an Array 
+First Missing Positive 3
+Sort an array of 0, 1, 2
+Find Missing & Repeating Number
+Pascal Triangle 23
+Maximum Sum Subarray 5
+Find the smallest and second smallest element in an array 2
+Move Zeroes 6
+Trapping rain water 9
+Spiral Matrix 42
+Longest Substring Without Repeating Characters 1
+Find square root of an element
+Majority Element (Boyer-Moore Voting Algorithm)
+Minimum Window Substring 1
+Reverse String 52
+First Unique Character in a String 4
+Insert a Node at the Tail of a Linked List
+Insert a node at a specific position in a linked list
+Insert a node at the head of a linked list
+Find Merge Point of Two Lists
+Delete a Node
+Reverse a linked list
+Merge two sorted linked lists
+Delete duplicate-value nodes from a sorted linked list
+Maximum Element with stacks
+Balanced Brackets
+Equal Stacks
+Two Sum II - Input Array Is Sorted
+Swap Nodes [Algo]
+Is This a Binary Search Tree?
+Tree : Top View
+Tree: Level Order Traversal
+Game of Two Stacks
+Castle on the Grid
+Rotten Oranges 5
+Breadth First Search: Shortest Reach
+Connected Cells in a Grid
