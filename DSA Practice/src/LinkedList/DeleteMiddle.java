@@ -32,19 +32,13 @@ public class DeleteMiddle {
 		Node fast = node;
 		Node slow = node;
 		Node prev = node;
-		
 		while(fast != null && fast.next != null) {
 			prev = slow;
 			slow = slow.next;
 			fast = fast.next.next;
 		}
-		
 		prev.next = slow.next;
-		
-		return node;
-		
-		
-		
+		return node;	
 	}
 	
 	public static void createlist(DeleteMiddle linkedlist) {
