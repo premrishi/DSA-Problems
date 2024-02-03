@@ -1,0 +1,5 @@
+Jewels and stones
+Happy number
+Four sum
+Longest consecutive sequence
+Minimum window substring

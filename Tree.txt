@@ -1,0 +1,22 @@
+Count the number of nodes
+Number of leaves and non leaves in tree
+Number of full nodes
+Maximum height of the tree
+Find max value in the tree
+Print all nodes at k depth
+Node to root path
+Balanced binary tree
+Balanced binary tree - optimised
+Level order traversal
+Symmetric Tree
+Print mirror image of tree
+Left view of tree
+Right view of tree
+top view of tree
+bottom view of tree
+Zig Zag Tree traversal
+Tree from inorder and pre order
+Delete node from BST
+Lowest common ancestor in Binary tree
+Validate BST
+Max path sum

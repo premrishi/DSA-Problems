@@ -1,0 +1,16 @@
+Create Linked List
+Insert at beggining, position, end
+Delete at beggining, position, end
+Return Middle of Linked List
+Delete first middle of Linked List
+Delete second middle node
+Reverse Linked List
+Detect, first point, remove loops
+Delete duplicates from sorted Linked list
+Odd even Linked List
+Remove nth node from end
+Intersection point of two linked list
+Merge two sorted Linked List
+Reorder List
+Rotate Linked List
+Add two numbers
